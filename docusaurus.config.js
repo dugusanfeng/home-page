@@ -15,6 +15,10 @@ const config = {
   favicon: 'img/platon.svg',
   organizationName: 'dugusanfeng', // Usually your GitHub org/user name.
   projectName: 'dugusanfeng.github.io', // Usually your repo name.
+  customFields: {
+    // Put your custom environment here
+    DEPLOYMENT_BRANCH: 'master'
+  },
 
   presets: [
     [
