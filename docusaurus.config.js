@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'PlatON',
   tagline: 'PlatON',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://dugusanfeng.github.io',
+  baseUrl: '/home-page',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/platon.svg',
   organizationName: 'dugusanfeng', // Usually your GitHub org/user name.
-  projectName: 'home-page', // Usually your repo name.
+  projectName: 'dugusanfeng.github.io', // Usually your repo name.
 
   presets: [
     [
@@ -23,10 +23,11 @@ const config = {
       ({
         docs: {
           path: 'docs',
-          routeBasePath: '/',
+          routeBasePath: '/home-page',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+              'https://github.com/dugusanfeng/home-page/tree/master/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -80,7 +81,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/dugusanfeng/home-page',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
