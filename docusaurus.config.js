@@ -9,7 +9,7 @@ const config = {
   title: 'PlatON',
   tagline: 'PlatON',
   url: 'https://dugusanfeng.github.io',
-  baseUrl: '/home-page',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/platon.svg',
@@ -23,7 +23,7 @@ const config = {
       ({
         docs: {
           path: 'docs',
-          routeBasePath: '/home-page',
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
