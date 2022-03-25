@@ -9,16 +9,12 @@ const config = {
   title: 'PlatON',
   tagline: 'PlatON',
   url: 'https://dugusanfeng.github.io',
-  baseUrl: '/',
+  baseUrl: '/home-page/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/platon.svg',
   organizationName: 'dugusanfeng', // Usually your GitHub org/user name.
-  projectName: 'dugusanfeng.github.io', // Usually your repo name.
-  customFields: {
-    // Put your custom environment here
-    DEPLOYMENT_BRANCH: 'master'
-  },
+  projectName: 'home-page', // Usually your repo name.
 
   presets: [
     [
@@ -74,7 +70,7 @@ const config = {
         logo: {
           // alt: 'My Site Logo',
           src: 'img/platon.svg',
-          href: '/intro'
+          href: '/home-page/DipoleSwap intro'
         },
         items: [
           // {
@@ -99,8 +95,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/intro',
+                label: 'Dipole intro',
+                to: '/home-page/DipoleSwap intro',
+              },
+              {
+                label: 'Products',
+                to: '/home-page/Products/exchange/Token%20Swaps',
+              },
+              {
+                label: 'Developers',
+                to: '/home-page/developers/Bug%20Bounty',
               },
             ],
           },

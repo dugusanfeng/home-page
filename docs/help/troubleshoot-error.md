@@ -1,4 +1,4 @@
 ---
-id: DipoleSwap intro
+id: Troubleshooting Errors
 sidebar_position: 1
 ---
