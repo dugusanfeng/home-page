@@ -64,7 +64,7 @@ const config = {
         logo: {
           alt: 'DipoleSwap',
           src: 'img/platon.svg',
-          href: '/home-page/DipoleSwap intro'
+          href: '/home-page/intro'
         },
         items: [
           // {
@@ -90,7 +90,7 @@ const config = {
             items: [
               {
                 label: 'Dipole intro',
-                to: '/home-page/DipoleSwap intro',
+                to: '/home-page/intro',
               },
               {
                 label: 'Products',
