@@ -10,7 +10,7 @@ const config = {
   tagline: 'PlatON',
   url: 'https://dugusanfeng.github.io',
   baseUrl: '/home-page/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/platon.svg',
   organizationName: 'dugusanfeng', // Usually your GitHub org/user name.
@@ -29,12 +29,6 @@ const config = {
           editUrl:
               'https://github.com/dugusanfeng/home-page/tree/master/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
         blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -66,9 +60,9 @@ const config = {
         // }
       },
       navbar: {
-        // title: 'My Site',
+        title: 'DipoleSwap',
         logo: {
-          // alt: 'My Site Logo',
+          alt: 'DipoleSwap',
           src: 'img/platon.svg',
           href: '/home-page/DipoleSwap intro'
         },
